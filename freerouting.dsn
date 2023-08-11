@@ -1,0 +1,209 @@
+(pcb /Users/willschoenfeld/Documents/M.2SSDWithDisplay/freerouting.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(6.0.7-1)-1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (layer In2.Cu
+      (type signal)
+      (property
+        (index 2)
+      )
+    )
+    (layer In3.Cu
+      (type signal)
+      (property
+        (index 3)
+      )
+    )
+    (layer In4.Cu
+      (type signal)
+      (property
+        (index 4)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 5)
+      )
+    )
+    (boundary
+      (path pcb 0  209443 -58170.3  209504 -58422.2  209603 -58661.5  209738 -58882.4
+            209907 -59079.4  210104 -59247.7  210324 -59383.1  210564 -59482.2
+            210816 -59542.7  211074 -59563  211332 -59542.7  211584 -59482.2
+            211824 -59383.1  212044 -59247.7  212241 -59079.4  212410 -58882.4
+            212545 -58661.5  212644 -58422.2  212705 -58170.3  212725 -57912
+            222152 -57912  222152 -137917  221577 -137917  221448 -137934
+            221327 -137984  221223 -138063  221144 -138167  221094 -138288
+            221077 -138417  221077 -141917  205627 -141917  205627 -139017
+            205607 -138862  205547 -138717  205451 -138593  205327 -138497
+            205182 -138437  205027 -138417  204872 -138437  204727 -138497
+            204603 -138593  204507 -138717  204447 -138862  204427 -139017
+            204427 -141917  201227 -141917  201227 -138417  201210 -138288
+            201160 -138167  201081 -138063  200977 -137984  200856 -137934
+            200727 -137917  200152 -137917  200152 -57912  209423 -57912
+            209443 -58170.3)
+    )
+    (keepout "" (polygon signal 0  204978 -63246  204978 -64516  217170 -64516  217170 -63246
+            204978 -63246))
+    (via "Via[0-5]_800:400_um" "Via[0-2]_300:100_um")
+    (rule
+      (width 203.2)
+      (clearance 50.9)
+      (clearance 50.9 (type default_smd))
+      (clearance 12.7 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm"
+      (place U3 207518.000000 -83439.000000 back 0.000000 (PN STLD40DPUR))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric
+      (place C31 216408.000000 -134620.000000 front -90.000000 (PN 10nF))
+    )
+    (component Resistor_SMD:R_0603_1608Metric
+      (place R48 202057.000000 -74168.000000 front 0.000000 (PN 10K))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::1
+      (place R23 202438.000000 -121031.000000 front 180.000000 (PN 0))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::2
+      (place R72 220345.000000 -90551.000000 front -90.000000 (PN 0))
+      (place R50 202057.000000 -75819.000000 front 0.000000 (PN 10K))
+    )
+    (component Package_BGA:BGA153N50P14X14_1150X1300X100
+      (place U5 210947.000000 -87630.000000 front 180.000000 (PN "MTFC32GAZAQHD-AAT"))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::3
+      (place R27 201168.000000 -109601.000000 front -90.000000 (PN 10K))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::4
+      (place R43 219583.000000 -79248.000000 front 0.000000 (PN 22))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::1
+      (place C59 214630.000000 -102362.000000 front 0.000000 (PN 0.1uF))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::5
+      (place R1 207010.000000 -120650.000000 back 270.000000 (PN 0))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::2
+      (place C14 211836.000000 -114554.000000 front 180.000000 (PN 0.1uF))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::3
+      (place C4 211963.000000 -84836.000000 back 180.000000 (PN 1uF))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::4
+      (place C27 218948.000000 -125222.000000 front 0.000000 (PN 10nF))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::5
+      (place C3 219456.000000 -106299.000000 back 90.000000 (PN 0.1uF))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::6
+      (place C46 207645.000000 -115062.000000 front 90.000000 (PN 0.1uF))
+    )
+    (component "Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal"
+      (place J1 216474.000000 -113792.000000 back 90.000000 (PN Conn_01x10))
+    )
+    (component "Package_DFN_QFN:Texas_S-PWQFN-N100_EP5.5x5.5mm_ThermalVias"
+      (place U2 212217.000000 -127762.000000 front 90.000000 (PN TUSB7320))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::6
+      (place R54 219583.000000 -74295.000000 front 180.000000 (PN 10K))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::7
+      (place R60 214630.000000 -99187.000000 front 0.000000 (PN 0))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::8
+      (place R70 220345.000000 -93726.000000 front 90.000000 (PN 0))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::9
+      (place R46 202057.000000 -69215.000000 front 0.000000 (PN 10K))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::7
+      (place C26 221234.000000 -113792.000000 front 90.000000 (PN 10nF))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::10
+      (place R57 219583.000000 -74295.000000 back 180.000000 (PN 50K))
+      (place R47 202057.000000 -79121.000000 front 0.000000 (PN 10K))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::11
+      (place R67 220345.000000 -87376.000000 front 90.000000 (PN 0))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::12
+      (place R64 217043.000000 -96901.000000 front 90.000000 (PN 0))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::8
+      (place C30 218948.000000 -132334.000000 front 0.000000 (PN 10nF))
+      (place C39 217678.000000 -122428.000000 back 270.000000 (PN 0.1uF))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::13
+      (place R65 218694.000000 -96901.000000 front 90.000000 (PN 0))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::9
+      (place C21 207518.000000 -134620.000000 front -90.000000 (PN 0.1uF))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::14
+      (place R55 202057.000000 -72517.000000 front 0.000000 (PN 50K))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::10
+      (place C49 205740.000000 -134620.000000 front 90.000000 (PN 0.1uF))
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-5"
+      (place U8 204216.000000 -113091.000000 front 0.000000 (PN TLV75512PDBV))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::15
+      (place R68 220345.000000 -96901.000000 front 90.000000 (PN 0))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::11
+      (place C20 205232.000000 -128016.000000 front 180.000000 (PN 0.1uF))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::12
+      (place C53 205232.000000 -115824.000000 front 180.000000 (PN 0.1uF))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::13
+      (place C85 202057.000000 -77470.000000 front 0.000000 (PN 1uF))
+    )
+    (component Inductor_SMD:L_0805_2012Metric
+      (place L5 208280.000000 -112522.000000 front 0.000000 (PN "600 @ 2A"))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::16
+      (place R53 219583.000000 -75946.000000 front 180.000000 (PN 10K))
+    )
+    (component Package_BGA:BGA153N50P14X14_1150X1300X100::1
+      (place U11 210947.000000 -72390.000000 front 180.000000 (PN "MTFC32GAZAQHD-AAT"))
+    )
+    (component Inductor_SMD:L_0805_2012Metric::1
+      (place L1 203962.000000 -91266.500000 back 90.000000 (PN 4.7uH))
+    )
+    (component Libraries:NGFF_M
+      (place J3 211152.000000 -141917.047000 front 0.000000 (PN Bus_M.2_Socket_M))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::14
+      (place C34 205232.000000 -122682.000000 front 180.000000 (PN 22uF))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::15
+      (place C25 212344.000000 -120904.000000 front 90.000000 (PN 22uF))
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::16
+      (place C13 218948.000000 -128778.000000 front 0.000000 (PN 0.1uF))
+    )
+    (component Resistor_SMD:R_0603_1608Metric::17
+      (place R73 218694.000000 -87376.000000 front 90.000000 (PN 0))
+    )

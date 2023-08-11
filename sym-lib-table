@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "STLD40DPUR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/STLD40DPUR.kicad_sym")(options "")(descr ""))
+  (lib (name "M.2-Templates-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Libraries/M.2-Templates-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "LCFE121002A900TG")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LCFE121002A900TG.kicad_sym")(options "")(descr ""))
+)

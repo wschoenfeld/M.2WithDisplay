@@ -1,0 +1,9 @@
+### Missing 3D models - created on 2023-08-06 18:31
+### Printed by checking_3D_models plugin
+Board file: /Users/willschoenfeld/Documents/M.2SSDWithDisplay/M.2SSDWithDisplay.kicad_pcb
+3D missing models written to:
+/Users/willschoenfeld/Documents/M.2SSDWithDisplay/M.2SSDWithDisplay_missing3Dmodels.txt
+-------
+-------
+NUM of 3D missing models:0
+checked extensions ['.stp', '.step', '.stpZ']
